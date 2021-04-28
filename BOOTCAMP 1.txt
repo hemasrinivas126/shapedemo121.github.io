@@ -1,0 +1,184 @@
+https://replit.com/@S062Hemanjaneya/NimbleLimegreenRelationaldatabase#index.html    [index.html]
+https://replit.com/@S062Hemanjaneya/NimbleLimegreenRelationaldatabase#style.css     [style.css]
+https://replit.com/join/clwpptzz-s062hemanjaneya    [invite link]
+
+
+
+
+
+
+index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>avengers</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <body>
+      <section id="main">
+        <nav>
+            <a href="#" class="logo">
+             <img src="logo.png" alt="the logo"> 
+            </a>
+
+            <span class="menu-space"></span>
+
+            <ul class="menu">
+              <li><a href="#">home</a></li>
+              <li><a href="#">characters</a></li>
+              <li><a href="#">achievments</a></li>
+              <li><a href="#">about</a></li>
+              </ul>
+              
+          </nav>
+
+      </section>
+      
+      <div class="image">
+      <img src="avengers1.jpg" alt="MDN Logo">
+        </div>
+
+      <section class="content">
+        <div class="image">
+      
+          <h1> Marvel's The Avengers </h1>
+        <p>Marvel's The Avengers (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland), or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.</p>
+        <a href="#" class="episodes-btn">Full Episodes Available Here</a>
+        </div>
+
+
+      </section>
+
+
+
+
+
+
+
+  </body>
+</html>
+
+
+
+
+
+
+style.css
+
+
+
+* {
+  box-sizing: border box;
+}
+body {
+   margin:0px;
+   padding:0px;
+   font:poppins;
+}
+
+#main{
+  width:100%;
+  height:80vh;
+  position:relative;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: lightgray
+ }
+
+.logo img{
+  height: 160px;
+  width: 300px;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li a{
+  height:60px;
+  line-height: 43px;
+  margin:3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: darkmagenta;
+}
+
+a{
+  text-decoration: none;
+}
+
+.image{
+  width: 300px;
+  height: 500px;
+}
+
+.image img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+   }
+
+  .content{
+    display:flex;
+    width:50%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left:50%;
+    right:70%;
+    transform: translate(-20% ,-70%)
+  } 
+
+  .main-text{
+    width:700px;
+  }
+  
+  h1{
+    font-size: 1cm;
+    color: black;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+  }
+
+  .episodes-btn{
+    width: 200px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: purple;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+  }
+
+  .episodes-btn:hover{
+    background-color: lightskyblue;
+    transition: all ease 0.2s;
+  }
+
+  .menu li a:hover{
+    background-color: purple;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    display: flex;
+    color: black;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+    transition: all ease 0.2s;
+
+  }
